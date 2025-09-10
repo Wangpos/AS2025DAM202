@@ -1,4 +1,6 @@
-#!/Users/tsheringwangpodorji/Desktop/practical/practical/bin/python3.11
+#!/bin/sh
+'''exec' "/Users/tsheringwangpodorji/Documents/Year3 Sem I/AS2025DAM202/Practical_One/bin/python" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys

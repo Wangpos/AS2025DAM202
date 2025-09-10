@@ -1,0 +1,9 @@
+#!/bin/sh
+'''exec' "/Users/tsheringwangpodorji/Documents/Year3 Sem I/AS2025DAM202/Practical_One/bin/python" "$0" "$@"
+' '''
+import sys
+from fontTools.ttx import main
+if __name__ == '__main__':
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(main())
